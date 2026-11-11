@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="family.thespry.qwen.CoreTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-11-11T00:37:58.324Z" hostname="redacted" time="1.834">
+  <properties/>
+  <testcase name="parent semantics resolve dirname before realpath()" classname="family.thespry.qwen.CoreTest" time="0.036"/>
+  <testcase name="symlink trust file refused()" classname="family.thespry.qwen.CoreTest" time="0.008"/>
+  <testcase name="trust precedence table()" classname="family.thespry.qwen.CoreTest" time="0.007"/>
+  <testcase name="ACP migration preserves other keys and agents()" classname="family.thespry.qwen.CoreTest" time="0.032"/>
+  <testcase name="credential aliases are rejected before reading()" classname="family.thespry.qwen.CoreTest" time="0.001"/>
+  <testcase name="launcher discovery accepts only the contracted exec command()" classname="family.thespry.qwen.CoreTest" time="0.01"/>
+  <testcase name="trust writes preserve entries and private modes()" classname="family.thespry.qwen.CoreTest" time="0.029"/>
+  <testcase name="scanner identifies servers hooks and unsafe config()" classname="family.thespry.qwen.CoreTest" time="0.011"/>
+  <testcase name="real symlink project resolves()" classname="family.thespry.qwen.CoreTest" time="0.004"/>
+  <testcase name="ACP invalid input unchanged()" classname="family.thespry.qwen.CoreTest" time="0.004"/>
+  <testcase name="status phases and tools states()" classname="family.thespry.qwen.CoreTest" time="0.12"/>
+  <testcase name="integrity supports legacy and system settings but ignores modern user file()" classname="family.thespry.qwen.CoreTest" time="0.014"/>
+  <testcase name="verified Git backlinks discover only related worktrees()" classname="family.thespry.qwen.CoreTest" time="0.007"/>
+  <testcase name="HTTP probes use only public endpoints without credentials()" classname="family.thespry.qwen.CoreTest" time="0.066"/>
+  <testcase name="configuration reads only two allowed keys without shell evaluation()" classname="family.thespry.qwen.CoreTest" time="0.002"/>
+  <testcase name="bad or commented trust files remain byte identical()" classname="family.thespry.qwen.CoreTest" time="0.003"/>
+  <testcase name="regeneration failure preserves active link and old bundle()" classname="family.thespry.qwen.CoreTest" time="0.831"/>
+  <testcase name="regeneration success switches link and keeps old bundle()" classname="family.thespry.qwen.CoreTest" time="0.641"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

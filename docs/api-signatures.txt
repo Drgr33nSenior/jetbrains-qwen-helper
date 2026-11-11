@@ -1,0 +1,49 @@
+Compiled from "NotificationAction.java"
+public abstract class com.intellij.notification.NotificationAction extends com.intellij.openapi.project.DumbAwareAction {
+  public com.intellij.notification.NotificationAction(java.lang.String);
+  public com.intellij.notification.NotificationAction(java.util.function.Supplier<java.lang.String>);
+  public void actionPerformed(com.intellij.openapi.actionSystem.AnActionEvent);
+  public abstract void actionPerformed(com.intellij.openapi.actionSystem.AnActionEvent, com.intellij.notification.Notification);
+  public static com.intellij.notification.NotificationAction create(java.lang.String, java.util.function.BiConsumer<? super com.intellij.openapi.actionSystem.AnActionEvent, ? super com.intellij.notification.Notification>);
+  public static com.intellij.notification.NotificationAction create(java.lang.String, java.lang.String, java.util.function.BiConsumer<? super com.intellij.openapi.actionSystem.AnActionEvent, ? super com.intellij.notification.Notification>);
+  public static com.intellij.notification.NotificationAction create(java.util.function.Supplier<java.lang.String>, java.util.function.BiConsumer<? super com.intellij.openapi.actionSystem.AnActionEvent, ? super com.intellij.notification.Notification>);
+  public static com.intellij.notification.NotificationAction createExpiring(java.lang.String, java.lang.String, java.util.function.BiConsumer<? super com.intellij.openapi.actionSystem.AnActionEvent, ? super com.intellij.notification.Notification>);
+  public static com.intellij.notification.NotificationAction createExpiring(java.lang.String, java.util.function.BiConsumer<? super com.intellij.openapi.actionSystem.AnActionEvent, ? super com.intellij.notification.Notification>);
+  public static com.intellij.notification.NotificationAction createSimple(java.lang.String, java.lang.String, java.lang.Runnable);
+  public static com.intellij.notification.NotificationAction createSimple(java.lang.String, java.lang.Runnable);
+  public static com.intellij.notification.NotificationAction createSimple(java.util.function.Supplier<java.lang.String>, java.lang.Runnable);
+  public static com.intellij.notification.NotificationAction createSimpleExpiring(java.lang.String, java.lang.Runnable);
+  public static com.intellij.notification.NotificationAction createSimpleExpiring(java.lang.String, java.lang.String, java.lang.Runnable);
+}
+Compiled from "NotificationGroupManager.java"
+public interface com.intellij.notification.NotificationGroupManager {
+  public abstract com.intellij.notification.NotificationGroup getNotificationGroup(java.lang.String);
+  public abstract boolean isGroupRegistered(java.lang.String);
+  public abstract java.util.Collection<com.intellij.notification.NotificationGroup> getRegisteredNotificationGroups();
+  public abstract boolean isRegisteredNotificationId(java.lang.String);
+  public static com.intellij.notification.NotificationGroupManager getInstance();
+}
+Compiled from "Configurable.java"
+public interface com.intellij.openapi.options.Configurable extends com.intellij.openapi.options.UnnamedConfigurable {
+  public static final com.intellij.openapi.extensions.ExtensionPointName<com.intellij.openapi.options.ConfigurableEP<com.intellij.openapi.options.Configurable>> APPLICATION_CONFIGURABLE;
+  public static final com.intellij.openapi.extensions.ProjectExtensionPointName<com.intellij.openapi.options.ConfigurableEP<com.intellij.openapi.options.Configurable>> PROJECT_CONFIGURABLE;
+  public abstract java.lang.String getDisplayName();
+  public default java.lang.String getDisplayNameFast();
+  public default java.lang.String getHelpTopic();
+  public default void focusOn(java.lang.String);
+  public static boolean isFieldModified(javax.swing.JTextField, java.lang.String);
+  public static boolean isFieldModified(javax.swing.JTextField, int, com.intellij.ide.ui.UINumericRange);
+  public static boolean isFieldModified(javax.swing.JTextField, int);
+  public static boolean isCheckboxModified(javax.swing.JCheckBox, boolean);
+  public default boolean isModified(javax.swing.JTextField, java.lang.String);
+  public default boolean isModified(javax.swing.JTextField, int, com.intellij.ide.ui.UINumericRange);
+  public default boolean isModified(javax.swing.JToggleButton, boolean);
+  static {};
+}
+Compiled from "PersistentStateComponent.java"
+public interface com.intellij.openapi.components.PersistentStateComponent<T> {
+  public abstract T getState();
+  public abstract void loadState(T);
+  public default void noStateLoaded();
+  public default void initializeComponent();
+}

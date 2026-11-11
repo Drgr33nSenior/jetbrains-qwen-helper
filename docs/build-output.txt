@@ -1,0 +1,87 @@
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :initializeIntellijPlatformPlugin
+> Task :patchPluginXml UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :generateManifest UP-TO-DATE
+> Task :processTestResources UP-TO-DATE
+> Task :compileKotlin
+> Task :compileJava NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :instrumentCode
+> Task :instrumentedJar
+> Task :composedJar
+> Task :prepareTestSandbox
+> Task :prepareTest
+> Task :prepareSandbox
+> Task :buildSearchableOptions UP-TO-DATE
+> Task :prepareJarSearchableOptions
+> Task :jarSearchableOptions UP-TO-DATE
+> Task :buildPlugin
+> Task :compileTestKotlin
+
+> Task :verifyPlugin
+Starting the IntelliJ Plugin Verifier 1.411
+2026-11-11T00:37:28 [main] INFO  c.j.p.options.OptionsParser - The verification directory <project>/build/reports/pluginVerifier is being deleted because it is not empty.
+Verification reports directory: <project>/build/reports/pluginVerifier
+2026-11-11T00:37:33 [main] INFO  verification - Reading IDE <gradle-cache>/caches/9.2.1/transforms/72140b8b4740c80debe61529e67c12a7/transformed/extracted
+2026-11-11T00:37:33 [main] INFO  c.j.p.options.OptionsParser - Reading IDE from <gradle-cache>/caches/9.2.1/transforms/72140b8b4740c80debe61529e67c12a7/transformed/extracted
+2026-11-11T00:37:33 [main] WARN  c.j.p.s.i.r.ValidatingLayoutComponentsProvider - Layout component 'intellij.clouds.docker.agent' has some nonexistent 'classPath' elements: 'plugins/clouds-docker-impl/lib/modules/intellij.clouds.docker.agent.jar'
+Layout component 'intellij.clouds.docker.dependencies' has some nonexistent 'classPath' elements: 'plugins/clouds-docker-impl/lib/modules/intellij.clouds.docker.dependencies.jar'
+Layout component 'intellij.clouds.docker.devcontainers.cli' has some nonexistent 'classPath' elements: 'plugins/clouds-docker-gateway/lib/modules/intellij.clouds.docker.devcontainers.cli.jar'
+Layout component 'intellij.driver.client' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.client.jar'
+Layout component 'intellij.driver.impl' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.impl.jar'
+Layout component 'intellij.driver.model' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.driver.model.jar'
+Layout component 'intellij.grazie.core' has some nonexistent 'classPath' elements: 'plugins/grazie/lib/modules/intellij.grazie.core.jar'
+Layout component 'intellij.json' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.jar'
+Layout component 'intellij.json.syntax' has some nonexistent 'classPath' elements: 'plugins/json/lib/modules/intellij.json.syntax.jar'
+Layout component 'intellij.libraries.ai.grazie.spell.gec.engine.local' has some nonexistent 'classPath' elements: 'plugins/grazie/lib/modules/intellij.libraries.ai.grazie.spell.gec.engine.local.jar'
+Layout component 'intellij.libraries.assertj.core' has some nonexistent 'classPath' elements: 'plugins/performanceTesting/lib/modules/intellij.libraries.assertj.core.jar'
+Layout component 'intellij.libraries.assertj.core' has some nonexistent 'classPath' elements: 'plugins/featuresTrainer/lib/modules/intellij.libraries.assertj.core.jar'
+Layout component 'intellij.libraries.groovy' has some nonexistent 'classPath' elements: 'plugins/groovy-scripting/lib/modules/intellij.libraries.groovy.jar'
+Layout component 'intellij.libraries.groovy.jsr223' has some nonexistent 'classPath' elements: 'plugins/groovy-scripting/lib/modules/intellij.libraries.groovy.jsr223.jar'
+Layout component 'intellij.libraries.ivy' has some nonexistent 'classPath' elements: 'plugins/groovy-scripting/lib/modules/intellij.libraries.ivy.jar'
+Layout component 'intellij.libraries.maven.resolver.provider' has some nonexistent 'classPath' elements: 'plugins/java-aetherDependencyResolver-plugin/lib/modules/intellij.libraries.maven.resolver.provider.jar'
+Layout component 'intellij.libraries.plexus.utils' has some nonexistent 'classPath' elements: 'plugins/java-aetherDependencyResolver-plugin/lib/modules/intellij.libraries.plexus.utils.jar'
+Layout component 'intellij.markdown' has some nonexistent 'classPath' elements: 'plugins/markdown/lib/modules/intellij.markdown.jar'
+Layout component 'intellij.platform.commercial.license' has some nonexistent 'classPath' elements: 'lib/intellij.platform.commercial.license.jar'
+Layout component 'intellij.platform.commercial.verifier' has some nonexistent 'classPath' elements: 'plugins/webDeployment/lib/modules/intellij.platform.commercial.verifier.jar'
+Layout component 'intellij.platform.commercial.verifier' has some nonexistent 'classPath' elements: 'plugins/tasks-timeTracking/lib/modules/intellij.platform.commercial.verifier.jar'
+Layout component 'intellij.platform.commercial.verifier' has some nonexistent 'classPath' elements: 'plugins/DatabaseTools/lib/modules/intellij.platform.commercial.verifier.jar'
+Layout component 'intellij.platform.commercial.verifier' has some nonexistent 'classPath' elements: 'plugins/uml/lib/modules/intellij.platform.commercial.verifier.jar'
+Layout component 'intellij.platform.commercial.verifier' has some nonexistent 'classPath' elements: 'plugins/python-django/lib/modules/intellij.platform.commercial.verifier.jar'
+Layout component 'intellij.properties' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.jar'
+Layout component 'intellij.properties.psi' has some nonexistent 'classPath' elements: 'plugins/properties/lib/modules/intellij.properties.psi.jar'
+Layout component 'intellij.python.dap' has some nonexistent 'classPath' elements: 'plugins/python-dap/lib/modules/intellij.python.dap.jar'
+Layout component 'intellij.sh.core' has some nonexistent 'classPath' elements: 'plugins/sh-plugin/lib/modules/intellij.sh.core.jar'
+Layout component 'intellij.toml.core' has some nonexistent 'classPath' elements: 'plugins/toml/lib/modules/intellij.toml.core.jar'
+Layout component 'intellij.vcs.github' has some nonexistent 'classPath' elements: 'plugins/vcs-github/lib/modules/intellij.vcs.github.jar'
+Layout component 'intellij.vcs.gitlab' has some nonexistent 'classPath' elements: 'plugins/vcs-gitlab/lib/modules/intellij.vcs.gitlab.jar'
+Layout component 'intellij.yaml' has some nonexistent 'classPath' elements: 'plugins/yaml/lib/modules/intellij.yaml.jar'
+2026-11-11T00:37:34 [main] INFO  verification - Reading plugin to check from <project>/build/distributions/Spry.ai-jetbrains-qwen-trust-0.1.0.zip
+2026-11-11T00:37:37 [main] INFO  verification - Task check-plugin parameters:
+Scheduled verifications (1):
+family.thespry.qwen.workstation:0.1.0 against PY-262.11879.98
+
+2026-11-11T00:37:54 [main] INFO  verification - Finished 1 of 1 verifications (in 17.1 s): PY-262.11879.98 against family.thespry.qwen.workstation:0.1.0: Compatible
+2026-11-11T00:37:54 [main] INFO  c.j.p.PluginVerifierMain - Started printing results (CheckPluginResultPrinter)
+Plugin family.thespry.qwen.workstation:0.1.0 against PY-262.11879.98: Compatible
+Dynamic Plugin Eligibility:
+    Plugin can probably be enabled or disabled without IDE restart
+
+2026-11-11T00:37:55 [main] INFO  c.j.p.PluginVerifierMain - Finished printing results in 37ms
+2026-11-11T00:37:55 [main] INFO  verification - Total time spent downloading plugins and their dependencies: 0 ms
+2026-11-11T00:37:55 [main] INFO  verification - Total amount of plugins and dependencies downloaded: 0 B
+2026-11-11T00:37:55 [main] INFO  verification - Total amount of space used for plugins and dependencies: 794.22 KB
+2026-11-11T00:37:55 [main] INFO  verification - PluginDetailsCache statistics: hits=3, misses=3, failures=0, evictions=0, total=6, hit-rate=50.0%
+2026-11-11T00:37:55 [main] INFO  verification - Verification reports for family.thespry.qwen.workstation:0.1.0 saved to <project>/build/reports/pluginVerifier/PY-262.11879.98
+2026-11-11T00:37:55 [main] INFO  verification - Total time spent in plugin verification: 21 s 29 ms
+
+> Task :compileTestJava NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :instrumentTestCode
+> Task :test
+
+BUILD SUCCESSFUL in 39s
+20 actionable tasks: 14 executed, 6 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

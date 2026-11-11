@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>family.thespry.qwen.workstation</id>
+  <name>Qwen Workstation</name>
+  <vendor>Spry</vendor>
+  <description>Folder trust, ACP registration, bundle health and gateway status for a self-hosted Qwen Code agent.</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <postStartupActivity implementation="family.thespry.qwen.QwenStartup"/>
+    <statusBarWidgetFactory id="QwenWorkstation" implementation="family.thespry.qwen.QwenWidgetFactory"/>
+    <notificationGroup id="Qwen Workstation" displayType="BALLOON"/>
+    <applicationConfigurable parentId="tools" id="qwen.workstation" displayName="Qwen Workstation" instance="family.thespry.qwen.QwenConfigurable"/>
+  </extensions>
+  <applicationListeners>
+    <listener class="family.thespry.qwen.QwenTrustListener" topic="com.intellij.ide.trustedProjects.TrustedProjectsListener"/>
+  </applicationListeners>
+  <actions>
+    <action id="Qwen.Regenerate" class="family.thespry.qwen.RegenerateAction" text="Regenerate Qwen Bundle"/>
+  </actions>
+</idea-plugin>
